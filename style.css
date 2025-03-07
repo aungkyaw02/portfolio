@@ -1,0 +1,153 @@
+* {
+  font-family: monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  --first-color: #87CEEB;
+  --second-color: #4682B4;
+  --third-color: #B0E0E6;
+  --forth-color: #F5FFFA;
+}
+
+body {
+  background: linear-gradient(to right, var(--first-color), var(--second-color));
+  overflow-x: hidden;
+}
+
+/* navbar */  
+
+#navbar {
+  background: linear-gradient(to right, var(--first-color), var(--second-color));
+}
+ 
+#name{
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+
+#navbar ul li {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+
+/* header */
+
+#header {
+  background: linear-gradient(to right, var(--first-color), var(--second-color));
+}
+
+#header h1 {
+  font-size: 5rem;
+}
+
+#header h3 {
+  font-size: 3rem;
+}
+
+#header h4 {
+  font-size: 2rem;
+}
+
+/* about */
+
+#about h1 {
+  font-size: 4.5rem;
+}
+
+#about p {
+  /* font-size: 1.8rem; */
+  text-align: justify;
+  line-height: 3.5rem;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+}
+
+#about h3 {
+  font-size: 2.4rem;
+  line-height: 4.5rem;
+}
+
+/* skills */
+
+#skills img {
+  width: 100%;
+  height: 30vh;
+}
+
+#skills h1, #contact h1, #projects h1 {
+  font-size: 4.5rem;
+}
+
+#skills p {
+  font-size: 2.8rem;
+}
+
+#skills .card {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#skills .card:hover {
+  transform: scale(1.08);
+}
+
+#skills h3 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: justify;
+}
+
+/* Projects */
+
+#projects .card {
+  cursor: pointer;
+  transition: 0.5s;
+}
+#projects .card:hover {
+  transform: scale(1.06);
+}
+
+
+/* contact */
+
+#contact input[type="text"] {
+  padding: 10px;
+}
+
+#contact input[type="email"] {
+  padding: 10px;
+}
+
+#contact span {
+  cursor: pointer;
+}
+
+/* Footer */
+
+#footer p {
+  text-align: justify;
+  max-width: 65rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width:525px) {
+  #header h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and(max-width: 487px) {
+  #header h1 {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+

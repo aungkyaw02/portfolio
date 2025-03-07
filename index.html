@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Portfolio</title>
+	<!-- font awesome link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<!-- Bootstrap Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- Icons Link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!-- CSS Link -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Google Fonts Links -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!-- AOS Link -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+	<nav id="navbar" class="navbar navbar-expand-lg shadow py-4 sticky-top">
+		<div class="container px-5">
+			<a class="navbar-brand" href="index.html" id="name">Portfolio</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title fs-1 fw-bold text-dark" id="offcanvasNavbarLabel">INFO</h5>
+					<span class="info-underline"></span>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav justify-content-end ms-auto">
+						<li class="nav-item mx-4">
+							<a class="nav-link active" href="#">Home</a>
+						</li>
+						<li class="nav-item active mx-4">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item mx-4">
+							<a class="nav-link" href="#skills">Skills</a>
+						</li>
+						<li class="nav-item mx-4">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item mx-4">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+						<li class="nav-item mx-4 mt-1">
+							<a class="btn btn-info fw-bold rounded-1 fs-4" href="#contact">Let's Talk</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section id="header" class="container my-5 p-5 shadow-lg rounded-5">
+		<div class="row align-items-center">
+			<div class="col-md-6 mt-5 mb-0">
+				<h3 class="my-3" data-aos="fade-right" data-aos-duration="1000">Hello!!</h3>
+				<h1 class="my-2" data-aos="fade-left" data-aos-duration="1000">I'm Aung Kyaw Thet.</h1>
+				<h4 class="my-3 fs-1" data-aos="fade-right" data-aos-duration="1000">Front-end Web Developer</h4>
+				<p style="font-size: 1.5rem;" data-aos="fade-left" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dignissimos porro assumenda molestias tempore <deleniti class=""></deleniti></p>
+				<div class="my-5">
+					<a href="#" class="btn text-dark fs-1 align-items-center me-5" data-aos="fade-up" data-aos-duration="1000"> <i class="bi bi-facebook"></i> </a>
+          <a href="#" class="btn text-dark fs-1 align-items-center me-5" data-aos="fade-up" data-aos-duration="1500"> <i class="bi bi-instagram"></i> </a>
+					<a href="#" class="btn text-dark fs-1 align-items-center me-5" data-aos="fade-up" data-aos-duration="2000">  <i class="bi bi-twitter"></i>  </a>
+					<a href="#" class="btn text-dark fs-1 align-items-center me-5" data-aos="fade-up" data-aos-duration="2500"> <i class="bi bi-linkedin"></i> </a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img src="images/pfp.png" class="img-fluid" alt="" data-aos="fade-left" data-aos-duration="1500">
+			</div>
+		</div>
+	</section>
+
+	<section id="about" class="container my-5 p-5">
+		<div class="row gx-5 ms-auto overflow-hidden">
+			<div class="col-md-4">
+				<img src="images/pfp.png" class="img-fluid border border-2 border-dark" alt="" style="border-radius: 50%;" data-aos="zoom-in-up" data-aos-duration="1000">
+			</div>
+			<div class="col-md-8">
+				<div class="card bg-transparent border-0">
+					<div class="card-body">
+						<h1 class="fw-bold mb-3" data-aos="fade-right" data-aos-duration="1000">About Me</h1>
+						<p class="fs-2" data-aos="fade-left" data-aos-duration="1000">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus ipsam sequi dignissimos accusantium, numquam id sint tempora, maxime consectetur voluptatem non error quisquam est veniam atque voluptas, maiores provident. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quis id officia, odit iure sunt autem animi repudiandae, omnis accusamus maiores.</p>
+						<h2 class="fw-bold my-4" data-aos="zoom-in" data-aos-duration="1000">BIO</h2>
+						<div>
+							<h3 data-aos="fade-left" data-aos-duration="1000"> Name : Aung Kyaw Thet </h3>
+							<h3 data-aos="fade-left" data-aos-duration="1000"> Age : 20 </h3>
+							<h3 data-aos="fade-left" data-aos-duration="1000"> Phone : 09 123456789</h3>
+							<h3 data-aos="fade-left" data-aos-duration="1000"> Email : akthet@gmail.com</h3>
+							<h3 data-aos="fade-left" data-aos-duration="1000"> Address : 16 AungMyayTharSi St. Kamayut Township, Yangon</h3>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section id="skills" class="container p-5">
+		<h1 class="text-center fw-bold text-dark" data-aos="zoom-out" data-aos-duration="1000">My Skills</h1>
+		<div class="row mt-5 gx-5">
+			<div class="col-lg-3">
+				<div class="card bg-transparent border-0 shadow-lg rounded-4 mb-5 p-4 text-center mx-4" data-aos="fade-right" data-aos-duration="1500">
+					<p class="fw-bold my-1">HTML</p>
+					<img src="images/html.webp" alt="">
+					<div class="card-body text-center">
+						<div class="progress skill-level" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar bg-dark text-white" style="width: 80%">80%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="card bg-transparent border-0 shadow-lg rounded-4 mb-5 p-4 text-center mx-4" data-aos="fade-right" data-aos-duration="1500">
+					<p class="fw-bold my-1">CSS</p>
+					<img src="images/css.svg" alt="">
+					<div class="card-body text-center">
+						<div class="progress skill-level" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar bg-dark text-white" style="width: 75%">75%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="card bg-transparent border-0 shadow-lg rounded-4 mb-5 p-4 text-center mx-3" data-aos="fade-left" data-aos-duration="1500">
+					<p class="fw-bold my-1">JavaScript</p>
+					<img src="images/js.webp" alt="">
+					<div class="card-body text-center">
+						<div class="progress skill-level" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar bg-dark text-white" style="width: 50%">50%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="card bg-transparent border-0 shadow-lg rounded-4 mb-5 p-4 text-center mx-3" data-aos="fade-left" data-aos-duration="1500">
+					<p class="fw-bold my-1">PHP</p>
+					<img src="images/php.svg" class="my-" alt="">
+					<div class="card-body text-center">
+						<div class="progress skill-level" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar bg-dark text-white" style="width: 65%">65%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h3 data-aos="zoom-in" data-aos-duration="1000"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus amet maiores nemo consectetur perspiciatis, nulla dolore asperiores voluptas ducimus, officiis soluta itaque ab ex, facilis enim deleniti animi? Unde, facilis? Doloribus illo nostrum soluta quasi voluptates. Obcaecati dolores culpa quisquam excepturi, aliquid dolore ad nihil rerum omnis aliquam maxime ipsa quia accusantium assumenda quidem numquam labore sint vero sequi itaque pariatur vel quis! Inventore, mollitia laborum earum aliquid eaque corporis officia unde eius repellendus quos dolore, architecto odit. Corporis quod ut quas exercitationem cupiditate. Facere provident vel, odio explicabo at ratione veniam assumenda voluptatum impedit sint quae nam architecto inventore!</h3>
+	</section>
+
+	<section id="projects" class="container p-5">
+		<h1 class="fw-bold text-center mb-5" data-aos="zoom-out" data-aos-duration="1000">My Works</h1>
+		<div class="row mt-5">
+			<div class="col-lg-4">
+				<div class="card rounded-3 border-0 p-0 mb-4 shadow-lg mx-5 mb-5" data-aos="fade-right" data-aos-duration="1000">
+					<div class="card-body">
+						<img class="img-fluid rounded-3" src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+						<h3 class="fw-bold mt-4 fs-1">First Project</h3>
+						<p class="fs-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="card rounded-3 border-0 p-0 mb-4 shadow-lg mx-5 mb-5" data-aos="zoom-in" data-aos-duration="1000">
+					<div class="card-body">
+						<img class="img-fluid rounded-3" src="https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+						<h3 class="fw-bold mt-4 fs-1">Second Project</h3>
+						<p class="fs-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="card rounded-3 border-0 p-0 mb-4 shadow-lg mx-5" data-aos="fade-left" data-aos-duration="1000">
+					<div class="card-body">
+						<img class="img-fluid rounded-3" src="https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+						<h3 class="fw-bold mt-4 fs-1">Third Project</h3>
+						<p class="fs-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="container p-5">
+		<h1 class="text-center fw-bold text-dark" data-aos="zoom-out" data-aos-duration="1000">Contact Me</h1>
+		<div class="row my-5">
+			<div class="col-lg-6 py-3 mb-5 rounded-1">
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item fs-1 bg-transparent border-0 my-3" data-aos="fade-right" data-aos-duration="1000"> <span class="text-dark fs-1"> <i class="bi bi-envelope-fill"></i></span> akthet@gmail.com </li>
+					<li class="list-group-item fs-1 bg-transparent border-0 my-3" data-aos="fade-right" data-aos-duration="1500"> <span class="text-dark fs-1"> <i class="bi bi-telephone-fill"></i></span> 09 123456789 </li>
+					<li class="list-group-item fs-1 bg-transparent border-0 my-3" data-aos="fade-right" data-aos-duration="2000"> <span class="text-dark fs-1"> <i class="bi bi-github"></i> </span> aungkyawthet </li>
+					<li class="list-group-item fs-1 bg-transparent border-0 my-3" data-aos="fade-right" data-aos-duration="2500"> <span class="text-dark fs-1"> <i class="bi bi-linkedin"></i> </span> aungkyawthet </li>
+				</ul>
+			</div>
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="mb-4">
+							<input type="text" class="form-control" placeholder="Your Name" data-aos="fade-left" data-aos-duration="1000">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="mb-4">
+							<input type="email" class="form-control" placeholder="Your Email" data-aos="fade-left" data-aos-duration="1200">
+						</div>
+					</div>
+				</div>
+				<div data-aos="fade-up" data-aos-duration="1000">
+					<textarea name="message" rows="15" class="form-control" placeholder="Message"></textarea>
+					<button class="btn btn-dark btn-lg rounded-2 fw-bold mt-2 float-end">Send</button>
+				</div>
+			</div>
+		</div>
+		<div class="text-center my-5 gx-5">
+			<button class="btn btn-info btn-lg rounded-2 fs-3 ms-3 text-center" data-aos="fade-right" data-aos-duration="1000">Download CV <i class="bi bi-download"></i> </button>
+			<button class="btn btn-info btn-lg rounded-2 fs-3 ms-3 text-center" data-aos="fade-left" data-aos-duration="1000">Send Email <i class="bi bi-envelope"></i> </button>
+		</div>
+	</section>
+
+	<footer id="footer" class="container-fluid p-5 bg-dark text-white">
+		<div class="row gy-5">
+			<div class="col-lg-6">
+				<h2 class="fw-bold fs-1 text-center text-info">Mission</h2>
+				<p class="fs-4 my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat ea illo ex aperiam eaque quos obcaecati culpa a consequuntur autem officia fugit. Tempora consequatur laborum repudiandae similique corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odit temporibus qui minus quisquam esse voluptas, exercitationem eum quis quaerat?</p>
+			</div>
+			<div class="col-lg-6 border-danger">
+				<h1 class="text-center fs-1 fw-bold text-info">Follow Me On</h1>
+				<div class="text-center mt-5">
+          <a href="#" class="btn btn-outline-white text-white rounded-3 mx-3 fs-2"> <i class="bi bi-facebook"></i> </a>
+          <a href="#" class="btn btn-outline-white text-white rounded-3 mx-3 fs-2"> <i class="bi bi-twitter"></i> </a>
+        	<a href="#" class="btn btn-outline-white text-white rounded-3 mx-3 fs-2"> <i class="bi bi-instagram"></i> </a>
+					<a href="#" class="btn btn-outline-white text-white rounded-3 mx-3 fs-2"> <i class="bi bi-github"></i> </a>
+        </div>
+			</div>
+		</div>
+	</footer>
+
+	<section class="container-fluid p-5 bg-dark text-white mt-0">
+		<p class="text-center fs-3">&copy; 2025 portfolio.</p>
+	</section>
+
+
+
+	<!-- AOS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- Js Link -->
+	<script src="script.js"></script>
+	<!-- Bootstrap Js link -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
